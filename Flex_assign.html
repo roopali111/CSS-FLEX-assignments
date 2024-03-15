@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 70%;
+        height: 30%;
+        font-family: sans-serif;
+        font-weight: bold;
+        /* font-size: 18px; */
+        text-align: center;
+
+/* margin: auto ; */
+         /* justify-content: center; 
+        align-items: center;  */
+
+       position: absolute;
+       top: 25%;
+       left:15%;
+       
+   
+      }
+
+      .header {
+        
+        background-color: red;
+        padding: 8px;
+        width: 100%;
+      }
+      .para {
+        background-color: rgb(103, 184, 238);
+        padding: 10px;
+        text-align:left;
+        
+      }
+      
+      .aside1 {
+        background-color: yellow;
+        flex-grow: 1;
+        padding: 8px;
+       
+      }
+      .aside2 {
+        flex-grow: 1;
+        background-color: rgb(209, 17, 129);
+        padding: 8px;
+      }
+      .footer {
+        background-color: rgb(101, 226, 143);
+        padding: 8px;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      
+      <div class="header">
+        <h3>Header</h3>
+      </div>
+      <div class="para">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum
+          ipsum distinctio accusamus fuga assumenda quaerat nihil esse incidunt
+          laudantium minus, sunt ipsam unde voluptates ullam at repudiandae
+          blanditiis adipisci numquam?laudantium minus, sunt ipsam unde voluptates ullam at repudiandae
+          blanditiis adipisci numquam?laudantium minus, sunt ipsam unde voluptates ullam at repudiandae
+          blanditiis adipisci numquam?laudantium minus, sunt ipsam unde voluptates ullam at repudiandae
+          blanditiis adipisci
+      </div>
+      
+        <div class="aside1">Aside 1</div>
+        <div class="aside2">Aside 2</div>
+      
+      <div class="footer">
+        <h4>Footer</h4>
+      </div>
+    </div>
+  </body>
+</html>

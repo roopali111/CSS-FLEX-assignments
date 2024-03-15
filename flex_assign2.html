@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0%;
+      }
+      .wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        width: 70%;
+        font-family: sans-serif;
+        font-weight: bold;
+        text-align: center;
+        font-size: 18px;
+
+        /* justify-content: center;
+        align-items: center; */
+
+
+        position: absolute;
+        top: 30%;
+        left: 15%;
+      }
+      header {
+        background-color: rgb(236, 104, 104);
+        width: 100%;
+        padding: 12px;
+      }
+      p {
+        background-color: rgb(27, 174, 211);
+        width: 50%;
+        flex-grow: 3;
+        text-align: left;
+        padding: 25px 25px 25px 4px;
+      }
+      footer {
+        background-color: rgb(27, 211, 82);
+        width: 100%;
+        padding: 12px;
+      }
+      .mid {
+        display: flex;
+        width: 70%;
+        flex-grow: 5;
+      }
+      aside1 {
+        background-color: yellow;
+        text-align: center;
+        flex-grow: 3;
+        padding: 10px;
+      }
+
+      aside2 {
+        background-color: rgb(245, 21, 234);
+        text-align: center;
+        flex-grow: 3;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>Header</header>
+      <div class="mid">
+        <aside1>Aside 1</aside1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit
+          accusamus excepturi odit quaerat in provident assumenda dolorem
+          laborum odio vel! Asperiores repellendus iusto architecto aut nulla
+        </p>
+        <aside2>Aside 2</aside2>
+      </div>
+      <footer>Footer</footer>
+    </div>
+  </body>
+</html>
