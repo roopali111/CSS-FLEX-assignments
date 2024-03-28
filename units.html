@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       .parent {
+  font-size: 18px;
+}
+.child {
+  font-size: 1.5em; 
+  /* 1.5*18=27 */
+  padding: 2em 1em;
+  /* 27*2em=54, 1em*27=27 */
+}
+
+
+    </style>
+</head>
+<body>
+    <ul class="parent">
+        <li class="child">One</li>
+        <li class="child">Two</li>
+        <li class="child">Three
+          <ul class="parent">
+            <li class="child">Three A</li>
+            <li class="child">Three B
+              <ul>
+                <li>Three B 2</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      
+      </body>
+      </html>
+      
+      
+</body>
+</html>
